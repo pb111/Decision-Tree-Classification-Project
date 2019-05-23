@@ -215,14 +215,23 @@ Decision Trees have common applications in the areas of operations research. The
 The work done in this project is inspired from following books and websites:-
 
 1.	Hands on Machine Learning with Scikit-Learn and Tensorflow by Aurélién Géron
+
 2.	Introduction to Machine Learning with Python by Andreas C. Müller and Sarah Guido
+
 3.	Udemy course – Machine Learning – A Z by Kirill Eremenko and Hadelin de Ponteves
+
 4.	https://en.wikipedia.org/wiki/Decision_tree
+
 5.	https://en.wikipedia.org/wiki/Information_gain_in_decision_trees
+
 6.	https://en.wikipedia.org/wiki/Entropy_(information_theory)
+
 7.	http://dataaspirant.com/2017/01/30/how-decision-tree-algorithm-works/
+
 8.	https://www.datacamp.com/community/tutorials/decision-tree-classification-python
+
 9.	https://stackabuse.com/decision-trees-in-python-with-scikit-learn/
+
 10.	https://acadgild.com/blog/decision-tree-python-code
 
 
