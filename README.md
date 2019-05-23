@@ -79,7 +79,8 @@ A sub-section of an entire tree is called a branch or sub-tree.
 A node, which is divided into sub-nodes is called the **parent node** of sub-nodes where sub-nodes are the children of a parent node.
 The above terminology is represented clearly in the following diagram:-
 
-# D-Decision Tree terminology
+
+![Decision Tree terminology](https://github.com/pb111/Decision-Tree-Classifier-Project/blob/master/Images/Decision%20Tree%20terminology.png)
 
 
 ===============================================================================
