@@ -1,4 +1,4 @@
-# Decision Tree Classifier with Python and Scikit-Learn
+# Decision Tree Classification with Python and Scikit-Learn
 
 Classification and Regression Trees or **CART** are one of the most popular and easy to interpret machine learning algorithms. In this project, I build a Decision Tree Classifier to predict the safety of the car. I implement Decision Tree Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
 
@@ -14,27 +14,47 @@ Classification and Regression Trees or **CART** are one of the most popular and 
 4.	Assumptions regarding Decision Tree classification
 5.	Decision Tree classification intuition
 6.	Attribute selection measures
--	Information gain
--	Gini index
+    -	Information gain
+    -	Gini index
 7.	Overfitting in Decision Tree
 8.	Advantages and disadvantages of Decision Tree algorithm
 9.	The problem statement
 10.	Results and conclusion
 11.	Applications of Decision Tree classification 
 12.	References
+
+
+===============================================================================
+
+
 ## 1. Introduction to Decision Tree algorithm
+
 
 A Decision Tree algorithm is one of the most popular machine learning algorithms. It uses a tree like structure and their possible combinations to solve a particular problem. It belongs to the class of supervised learning algorithms where it can be used for both classification and regression purposes. 
 A decision tree is a structure that includes a root node, branches, and leaf nodes. Each internal node denotes a test on an attribute, each branch denotes the outcome of a test, and each leaf node holds a class label. The topmost node in the tree is the root node. I will describe Decision Tree terminology in later section. 
 
+
+===============================================================================
+
+
 ## 2. Classification and Regression Trees (CART)
+
+
 Nowadays, Decision Tree algorithm is known by its modern name **CART** which stands for **Classification and Regression Trees**.
 Classification and Regression Trees or **CART** is a term introduced by Leo Breiman to refer to Decision Tree algorithms that can be used for classification and regression modeling problems.
 The CART algorithm provides a foundation for other important algorithms like bagged decision trees, random forest and boosted decision trees.
 In this project, I will solve a classification problem. So, I will refer the algorithm also as Decision Tree Classification problem. 
 
+
+===============================================================================
+
+
 ## 3. Decision Tree algorithm terminology
+
+
 In a Decision Tree algorithm, there is a tree like structure in which each `internal node` represents a test on an `attribute`, each `branch` represents the outcome of the test, and each `leaf node` represents a class label. The paths from the `root node` to `leaf node` represent classification rules.
+
+
 We can see that there is some terminology involved in Decision Tree algorithm. The terms involved in Decision Tree algorithm are as follows:-
 
 ### Root Node
@@ -62,12 +82,21 @@ The above terminology is represented clearly in the following diagram:-
 # D-Decision Tree terminology
 
 
+===============================================================================
+
+
 ## 4. Decision Tree algorithm assumptions
+
+
 We make some assumptions while implementing the Decision-Tree algorithm. These are listed below:-
 1.	At the beginning, the whole training set is considered as the **root**.
 2.	Feature values need to be categorical. If the values are continuous then they are discretized prior to building the model.
 3.	Records are distributed recursively on the basis of attribute values.
 4.	Order to placing attributes as root or internal node of the tree is done by using some statistical approach.
+
+
+===============================================================================
+
 
 ## 5. Decision Tree algorithm intuition
 
@@ -76,6 +105,9 @@ The Decision Tree algorithm intuition is as follows:-
 1.	For each attribute in the dataset, the Decision-Tree algorithm forms a node. The most important attribute is placed at the root node. 
 2.	For evaluating the task in hand, we start at the root node and we work our way down the tree by following the corresponding node that meets our condition or decision. 
 3.	This process continues until a leaf node is reached. It contains the prediction or the outcome of the Decision Tree.
+
+===============================================================================
+
 
 ## 6. Attribute selection measures
 The primary challenge in the Decision Tree implementation is to identify the attributes which we consider as the root node and each level. This process is known as the **attributes selection**. There are different attributes selection measure to identify the attribute which can be considered as the root node at each level.
@@ -113,11 +145,12 @@ In case of a discrete-valued attribute, the subset that gives the minimum gini i
 The attribute with minimum Gini index is chosen as the splitting attribute.
 
 
-
-
+===============================================================================
 
 
 ## 7. Overfitting in Decision Tree algorithm
+
+
 Overfitting is a practical problem while building a Decision-Tree model. The problem of overfitting is considered when the algorithm continues to go deeper and deeper to reduce the training-set error but results with an increased test-set error. So, accuracy of prediction for our model goes down. It generally happens when we build many branches due to outliers and irregularities in data.
 Two approaches which can be used to avoid overfitting are as follows:-
 -	Pre-Pruning
@@ -130,6 +163,8 @@ In pre-pruning, we stop the tree construction a bit early. We prefer not to spli
 In post-pruning, we go deeper and deeper in the tree to build a complete tree. If the tree shows the overfitting problem then pruning is done as a post-pruning step. We use the cross-validation data to check the effect of our pruning. Using cross-validation data, we test whether expanding a node will result in improve or not.
 If it shows an improvement, then we can continue by expanding that node. But if it shows a reduction in accuracy then it should not be expanded. So, the node should be converted to a leaf node.
 
+
+===============================================================================
 
 
 ## 8. Advantages and disadvantages of Decision Tree algorithm
@@ -149,16 +184,30 @@ The disadvantages of Decision Tree algorithm are listed below:-
 4.	Calculations can become complex when there are many class labels.
 
 
+===============================================================================
+
 
 ## 9. The problem statement
 The problem is to predict the safety of the car. In this project, I build a Decision Tree Classifier to predict the safety of the car. I implement Decision Tree Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
 
+
+===============================================================================
+
+
 ## 10. Results and conclusion
+
+
+===============================================================================
+
 
 ## 11. Applications of Decision Tree classification
 Decision Trees have common applications in the areas of operations research. They are very helpful in decision analysis to build a strategy. They are very popular tool in machine learning. They are very common in applications like -
 1.	Risk Assessment
 2.	Fraud Prevention
+
+
+===============================================================================
+
 
 ## 12. References
 
