@@ -271,6 +271,15 @@ The problem is to predict the safety of the car. In this project, I build a Deci
 
 ## 10. Results and conclusion
 
+The results and conclusion of this project are as follows:-
+
+1.	In this project, I build a Decision-Tree Classifier model to predict the safety of the car. I build two models, one with criterion `gini index` and another one with criterion `entropy`. The model yields a very good performance as indicated by the model accuracy in both the cases which was found to be 0.8021.
+2.	In the model with criterion `gini index`, the training-set accuracy score is 0.7865 while the test-set accuracy to be 0.8021. These two values are quite comparable. So, there is no sign of overfitting.
+3.	Similarly, in the model with criterion `entropy`, the training-set accuracy score is 0.7865 while the test-set accuracy to be 0.8021.We get the same values as in the case with criterion `gini`. So, there is no sign of overfitting.
+4.	In both the cases, the training-set and test-set accuracy score is the same. It may happen because of small dataset.
+5.	The confusion matrix and classification report yields very good model performance.
+
+
 
 ===============================================================================
 
