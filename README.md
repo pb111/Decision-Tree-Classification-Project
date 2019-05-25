@@ -1,7 +1,7 @@
 # Decision Tree Classification with Python and Scikit-Learn
 
 
-**Classification and Regression Trees** or **CART** are one of the most popular and easy to interpret machine learning algorithms. In this project, I build a Decision Tree Classifier to predict the safety of the car. I implement Decision Tree Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
+**Classification and Regression Trees** or **CART** are one of the most popular and easy to interpret machine learning algorithms. In this project, I build a Decision Tree Classifier to predict the safety of the car. I build two models, one with criterion `gini index` and another one with criterion `entropy`. I implement Decision Tree Classification with Python and Scikit-Learn. I have used the **Car Evaluation Data Set** for this project, downloaded from the UCI Machine Learning Repository website.
 
 
 ===============================================================================
